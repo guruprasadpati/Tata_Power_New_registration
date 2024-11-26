@@ -16,6 +16,7 @@ public class Window_Handler1 {
 		Set<String> windows=driver.getWindowHandles();
 		String[] arr=windows.toArray(new String[windows.size()]);
 		driver.switchTo().window(arr[1]);
+		System.out.println("Sucess message");
 		
 	
 
